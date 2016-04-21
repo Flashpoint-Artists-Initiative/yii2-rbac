@@ -5,22 +5,22 @@ RbacAsset::register($this);
 $this->params['sidebar'] = [
     [
         'label' => 'Assignments',
-        'url' => ['/admin/rbac/assignment/index'],
+        'url' => ['/rbac/assignment/index'],
     ],
     [
         'label' => 'Roles',
-        'url' => ['/admin/rbac/role/index'],
+        'url' => ['/rbac/role/index'],
     ],
     [
         'label' => 'Permissions',
-        'url' => ['/admin/rbac/permission/index'],
+        'url' => ['/rbac/permission/index'],
     ],
     [
         'label' => 'Routes',
-        'url' => ['/admin/rbac/route/index'],
+        'url' => ['/rbac/route/index'],
     ],
     [
         'label' => 'Rules',
-        'url' => ['/admin/rbac/rule/index'],
+        'url' => ['/rbac/rule/index'],
     ]
 ];

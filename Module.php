@@ -1,6 +1,7 @@
 <?php
 
 namespace yii2mod\rbac;
+use yii2mod\rbac\components\AccessControl;
 
 
 /**
@@ -39,6 +40,7 @@ class Module extends \yii\base\Module
      */
     public function init()
     {
+        $this->attachBehavior(AccessControl::className(), new AccessControl());
         parent::init();
     }
 }
